@@ -3,7 +3,8 @@ body    {
 }
 
 .back_home{
-    background-image: url("배경.jpg");
+    background-image: url("/img/배경.jpg");
+    height: 1000px;
 
 }
 
@@ -11,7 +12,47 @@ body    {
     background-color: white;
 }
 
+.back_home > h1{
+    color: aliceblue;
+    font-size: 5em;
+    text-align: center;
+    padding: 20%;
+    padding-left: 30%;
+    position:relative;
+    display: inline-block;
+    white-space: nowrap;
+     overflow: hidden;
+     animation: typing 1.2s steps(22, end), blink-caret .75s step-end;
+     font-family: 'Nanum Pen Script', cursive;
+    
 
+}
+
+.back_home > h1::after{
+    position:absolute; 
+    display:block;
+    content:""; 
+    border-right: 1px solid #000;
+    animation: cursor 0.5s step-end infinite;
+    font-family: fantasy;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 9em;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+      border-color: transparent
+    }
+    50% {
+      border-color: #000;
+    }
+}
 
 a {
     text-align: center;
