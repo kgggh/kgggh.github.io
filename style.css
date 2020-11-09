@@ -1,0 +1,78 @@
+body    {
+    margin: 0;
+}
+
+.back_home{
+    background-image: url("배경.jpg");
+
+}
+
+.back_about{
+    background-color: white;
+}
+
+
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:slategrey;
+    padding: 8px 12px;
+}
+
+.nav_logo{
+    font-size: 50px;
+    padding-left: 8px;
+    
+}
+
+.nav_menu {
+    list-style: none;
+    display: flex;
+    border-radius: 5px;
+    padding: 0%;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+
+.nav_menu > li {
+    padding: 16px 50px;
+    border-radius: 5px;
+    margin: auto;
+    
+}
+
+.nav_menu li:hover{
+    background-color:sienna;
+    -webkit-transform: scale(1.2,1.2);
+
+    -moz-transform: scale(1.2,1.2);
+
+    -o-transform: scale(1.2,1.2);
+
+    -ms-transform: scale(1.2,1.2);
+
+    transform: scale(1.2,1.2);
+}
+
+.nav_menu a:hover{
+    
+    color:white;
+}
+.nav_icons{
+    font-size: 40px;
+    padding-right: 20px;
+}
+.nav_icons > a{
+    color: moccasin;
+}
