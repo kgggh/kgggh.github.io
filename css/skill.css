@@ -26,6 +26,10 @@ div#skill_container {
     width: 100px;
     height: 100px;   
 }
+.skill_ajax {
+    width: 100px;
+    height: 100px;  
+}
 .skill_css3 img {
     width: 100px;
     height: 100px;   
@@ -61,6 +65,7 @@ div#skill_container {
 
 #skill_container {
     text-align: center;
+    height: auto;
 }
 .skil_content {
     justify-content: center;

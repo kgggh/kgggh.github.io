@@ -1,0 +1,20 @@
+.contact_header {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive;
+    color: gray;
+
+}
+div#contact_container {
+    position: relative;
+    background-color: white;
+    font-family: 'Nanum Pen Script', cursive;
+    padding-top: 20px;
+    width: 100%;
+}
+.contact{
+    text-align: center;
+}
+.portTxt {
+    text-align: center;
+}

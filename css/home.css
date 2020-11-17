@@ -95,6 +95,13 @@ a {
     
 }
 @media screen and (max-width:768px){
+    .back_home{
+        background-size: contain;
+        height: 980px;
+        width: 100%;
+        
+    }
+
     .navBar {
         flex-direction: column;
         align-items: flex-start;

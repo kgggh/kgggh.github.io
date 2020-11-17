@@ -85,7 +85,7 @@ ul li span{
     position: relative;
 }
 .me_content{
-    font-size: 22px;
+    font-size: 24px;
 }
 .me_header h1 {
     font-size: 40px;
@@ -96,9 +96,22 @@ ul li span{
     display: block;
 }
 
+.education {
+    width: 100%;
+    padding-top: 30px;
+}
+.edu_content{
+    font-size: 24px;
+    
+}
+.edu_header h1 {
+    font-size: 40px;
+}
+
 @media screen and (max-width:768px){
-    .about_content {
+    div#about_container {
         text-align: center;
+        height: auto;
     }
     .my_profile {
         flex-direction: column;
@@ -107,11 +120,20 @@ ul li span{
         padding-right: 0px;
         width: 100%;
     }
-
     .about_me{
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+    .profile_content ul{
+        padding-left: 0px;
+    }
+    .profile_content img{
+       float: none;
+    }
+    .profile_content ul{
+        width: 100%;
+        float: left;
     }
 }
 

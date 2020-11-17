@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css"href="/css/skill.css">
     <link rel="stylesheet" type="text/css"href="/css/project.css">
     <link rel="stylesheet" type="text/css"href="/css/skill_graph.css">
+    <link rel="stylesheet" type="text/css"href="/css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
     <script  src="https://kit.fontawesome.com/329d4ea998.js" crossorigin="anonymous">
     </script>
@@ -51,7 +52,6 @@
                     </div>
                     <div class="profile_content">
                         <img src="img/프로필.jpeg"  alt="프로필사진"/>
-
                         <ul>
                             <li>김 건 희 </li>
                             <li>백엔드 개발자 [신입]</li>
@@ -62,12 +62,11 @@
                             </li>
                         </ul>
                     </div>
-
                 </div>
 
                 <div class="about_me">
                     <div class="me_header">
-                        <h1>자기소개</h1>
+                        <h1>목표</h1>
                     </div>
                     <div class="me_content">
                         <p>
@@ -84,6 +83,15 @@
                     </div>
                 </div>
             </div>
+                <div class="education">
+                    <div class="edu_header">
+                        <h1>Eudcation</h1>
+                    </div>
+                    <div class="edu_content">
+                        <p>2013.02 ~ 2018.02 순천 제일대학교 전자정보통신학과</p>
+                        <p>2020.04 ~ 2020.10 비트캠프 서초본원 수료 </p>
+                    </div>
+                </div>
         </section>
     </div>
 
@@ -94,8 +102,8 @@
             </div>
             <div class="skil_content">
                 <div class="skill_html5">
-                    <div class="progress-circle over50 p80">
-                        <span>80%</span>
+                    <div class="progress-circle over50 p75">
+                        <span>75%</span>
                         <div class="left-half-clipper">
                             <div class="first50-bar"></div>
                             <div class="value-bar"></div>
@@ -126,7 +134,7 @@
                         </div>
                     </div> 
                     <img src="/img/javascript-4.svg" alt="javascript">
-                    <p>이건 뭐하고 있다냐?</p>
+                    <p>유효성 검사(요소 제어, 이벤트 처리,중복검사)</p>
                 </div>
 
                 <div class="skill_jquery">
@@ -138,6 +146,18 @@
                         </div>
                     </div> 
                     <img src="/img/jquery-1.svg" alt="jquery">
+                    <p>이건 뭐하고 있다냐?</p>
+                </div>
+
+                <div class="skill_ajax">
+                    <div class="progress-circle over50 p60">
+                        <span>60%</span>
+                        <div class="left-half-clipper">
+                            <div class="first50-bar"></div>
+                            <div class="value-bar"></div>
+                        </div>
+                    </div> 
+                    <img src="/img/ajax.png" alt="ajax">
                     <p>이건 뭐하고 있다냐?</p>
                 </div>
 
@@ -162,7 +182,7 @@
                         </div>
                     </div> 
                     <img src="/img/spring-3.svg" alt="spring">
-                    <p>기본적인 CRUD 기능구현 가능</p>
+                    <p>MVC 모델2방식 기본적인 CRUD 기능구현 가능</p>
                 </div>
 
                 <div class="skill_react">
@@ -186,11 +206,47 @@
                 <h1>Project</h1>
             </div>
             <div class="project_Details">
-                <div>
-                    <img src="/img/ajax.png" alt="">
+                <p class="project_title">1. 프로젝트명 : 비트딜리버리</p>
+                   <img src="/img/비트딜리버리.PNG" alt="비트딜리버리" >
+
+                <div class="project_content">
+                    <b><p>언택트(Untact): 접촉하지 않고 연결하는 디지털 기술 – 언택트 소비</p></b>
+                    <p>집에서 지내는 시간이 늘면서 눈에 띄게 증가한 것은 바로 스마트폰 사용 시간입니다.</p>
+                    <p>특히, 모바일 TV나 동영상 스트리밍 시청 등 미디어 접속 시간이 확연하게 늘어난 것으로 나타났는데요.</p>
+                    <p>그 중에서도 배달 음식이나 신선 식품 등의 판매량이 증가 하는 모습을 보며,</p>
+                    <p>배달 웹서비스를 주제로 삼아 조 프로젝트를 진행했습니다.</p>
+                    <p>맡은 역할은 관리자로써 이벤트 및 쿠폰 CRUD 기능을 구현하였고,</p>
+                    <p>사용자로써는 이벤트 참여 쿠폰 조회,발급 기능을 구현했습니다. </p>
+
+                    <div class="sub">
+                        <a href="" onclick="openGithub()"><img src="img/github.png" alt="소스"> </a>소스보기
+                        <a href="" onclick="winOpen()"><img src="img/playbtn.png" alt="발표영상"> </a>발표영상
+                    </div>
                 </div>
-                    <p>sdsdsd</p>
             </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section id="contact_section">
+            <div class="contact_header">
+                <h1>Contact</h1>
+            </div>
+                <div class="portTxt">
+                    <h2>
+                        Thank you<br>
+                        for watching
+                    </h2>
+                    <p>
+                        항상 밝고 긍정적인 마인드로
+                        임하겠습니다.
+                        사용자의 니즈를 충족할 수 있는 
+                        서비스를 제공하기 위해
+                        항상 열린 마인드로 소통하는 
+                        개발자 <span>김 건희</span>가 될 것을
+                        약속합니다.
+                    </p>
+                </div>
         </section>
     </div>
     
