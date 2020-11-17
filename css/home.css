@@ -32,7 +32,11 @@ a {
     justify-content:space-between;
     align-items: center;
     background-color:black;
-    padding: 8px 12px;
+    padding-top: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    
 }
 
 .nav_logo{

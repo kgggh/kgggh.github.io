@@ -6,3 +6,6 @@ toggleBtn.addEventListener('click', function (){
         menu.classList.toggle('active');
         icons.classList.toggle('active');
     });
+
+
+    
