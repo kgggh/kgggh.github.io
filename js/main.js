@@ -9,11 +9,9 @@ toggleBtn.addEventListener('click', function (){
 
 
 function winOpen(){
-    window.open("https://www.youtube.com/watch?v=sOAcjzd0gas",
-    "new"); 
+    window.open("https://www.youtube.com/watch?v=sOAcjzd0gas","new"); 
 }
 
 function openGithub(){
-    window.open("https://github.com/kgggh/Spring_Delivery",
-    "new"); 
+    window.open("https://github.com/kgggh/Spring_Delivery","new"); 
 }

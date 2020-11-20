@@ -5,20 +5,41 @@
     color: gray;
 
 }
-div#contact_container {
+div#contact {
     position: relative;
     background-color: white;
     font-family: 'Nanum Pen Script', cursive;
     padding-top: 20px;
     width: 100%;
-}
-.contact{
     text-align: center;
+    height: 500px;
 }
+
 .portTxt {
     text-align: center;
 }
+.portTxt h2 {
+    font-size: 40px;
+}
 
+.portTxt p {
+    font-size: 25px;
+}
+
+.portTxt span{
+    font-size: 40px;
+    color:royalblue;
+}
+
+.portTxt > i{
+    font-size: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: chocolate;
+}
+.portTxt > a {
+    font-size: 22px;
+}
 @media screen and (max-width:768px){
     
 }
