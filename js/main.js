@@ -8,13 +8,18 @@ toggleBtn.addEventListener('click', function (){
     });
 
 
-function winOpen(){
+function winOpen1(){
     window.open("https://www.youtube.com/watch?v=sOAcjzd0gas","new"); 
 }
 
-function openGithub(){
+function openGithub1(){
     window.open("https://github.com/kgggh/Spring_Delivery","new"); 
 }
+function openGithub2(){
+    window.open("https://github.com/kgggh/bugny","new"); 
+}
 
-
+function winOpen2(){
+    window.open("http://18.188.2.133:8080/bugny/","new"); 
+}
 
