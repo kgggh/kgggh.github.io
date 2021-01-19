@@ -1,8 +1,8 @@
 div#about_container {
     position: relative;
     background-color: gainsboro;
-    font-family: 'Nanum Pen Script', cursive;
-    height: 980px;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 800px;
     width: 100%;
     padding-top: 100px;
 
@@ -10,7 +10,7 @@ div#about_container {
 
 .about_header {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
 }
 .about_header h1 {
     margin-top: 0px;
@@ -24,7 +24,6 @@ section#about_section {
 
 }
 .profile_content::after{
-    content: "";
     display: block;
     clear: both;
 }
@@ -38,13 +37,13 @@ section#about_section {
     float: left;
 }
 .profile_header h1 {
-    font-size: 40px;
+    font-size: 25px;
     
 }
 
 ul{
     list-style: none;
-    font-size: 30px;
+    font-size: 18px;
     margin-top: 0px;
 
 }
@@ -75,7 +74,7 @@ ul li span{
 }
 .about_header{
     padding: 30px 0px;
-    color: gray;
+    color: black;
 }
 .about_me{
     width: 35%;
@@ -89,10 +88,10 @@ ul li span{
     position: relative;
 }
 .me_content{
-    font-size: 24px;
+    font-size: 18px;
 }
 .me_header h1 {
-    font-size: 40px;
+    font-size: 25px;
 }
 .about_content::after{
     content: "";
@@ -105,17 +104,17 @@ ul li span{
     padding-top: 30px;
 }
 .edu_content{
-    font-size: 24px;
+    font-size: 18px;
     
 }
 .edu_header h1 {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 @media screen and (max-width:768px){
     div#about_container {
         text-align: center;
-        height: auto;
+        height: 1300px;
     }
     .my_profile {
         flex-direction: column;

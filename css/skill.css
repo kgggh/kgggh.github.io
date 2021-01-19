@@ -1,14 +1,14 @@
 .skill_header {
     text-align: center;
-    font-size: 40px;
-    font-family: 'Nanum Pen Script', cursive;
-    color: gray;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
 
 }
 div#skill_container {
     position: relative;
     background-color: white;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     padding-top: 100px;
     width: 100%;
     margin-bottom: 100px;
@@ -20,7 +20,7 @@ div#skill_container {
 }
 
 .skil_content p{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .skill_html5 img {

@@ -18,8 +18,8 @@ body {
 }
 
 span {
-    font-size: 35px;
-    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 
@@ -44,7 +44,7 @@ a {
 }
 
 .nav_logo{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .nav_menu {
@@ -58,8 +58,8 @@ a {
 .nav_menu > a {
     padding: 1vw 5vw;
     border-radius: 5px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
 }
     
 
@@ -82,7 +82,7 @@ a {
     padding-left: 0px;
 }
 .nav_icons > li > a{
-    font-size: 3vw;
+    font-size: 30px;
     display: flex;
     color: moccasin;
     padding-left: 8px;
@@ -101,7 +101,7 @@ a {
 @media screen and (max-width:768px){
     .back_home{
         background-size: contain;
-        height: 980px;
+        height: 700px;
         width: 100%;
         
     }
@@ -126,7 +126,7 @@ a {
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
-        font-size: 24px;
+        font-size: 20px;
         
         
     }

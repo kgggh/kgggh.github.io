@@ -1,8 +1,8 @@
 .contact_header {
     text-align: center;
-    font-size: 40px;
-    font-family: 'Nanum Pen Script', cursive;
-    color: gray;
+    font-size: 25px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
 }
 .contact_header h1 {
     margin-top: 0px;
@@ -11,7 +11,7 @@
 div#contact {
     position: relative;
     background-color: white;
-    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
     padding-top: 100px;
     width: 100%;
     text-align: center;
@@ -22,26 +22,26 @@ div#contact {
     text-align: center;
 }
 .portTxt h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .portTxt p {
-    font-size: 25px;
+    font-size: 18px;
 }
 
 .portTxt span{
-    font-size: 40px;
-    color:royalblue;
+    font-size: 25px;
+    color:cadetblue;
 }
 
 .portTxt > i{
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 8px;
     padding-right: 8px;
     color: chocolate;
 }
 .portTxt > a {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .portTxt img {
